@@ -8,24 +8,24 @@ namespace ProblemSetB
 {
     class Fibonacci
     {
-        public int userInput;
-        public int temporaryTotal;
+        public double userInput;
+        public double temporaryTotal;
 
        
         public void GetNumber()
         {
             Console.WriteLine("Please enter a number to Fibonacci");
-            userInput = int.Parse(Console.ReadLine());
+            userInput = double.Parse(Console.ReadLine());
             DoFibonacci();
         }
 
         public void DoFibonacci()
         {
-            List<int> fibonacci = new List<int>();
+            List<double> fibonacci = new List<double>();
             fibonacci.Insert(0, userInput);
             fibonacci.Insert(1, userInput);
             Console.WriteLine(userInput);
-            for (int tempTotal = 0; tempTotal < 20; tempTotal++)
+            for (double tempTotal = 0; tempTotal < 50; tempTotal++)
             {
                 fibonacci.Add(temporaryTotal = (fibonacci[0] + fibonacci[1]));
                 Console.WriteLine(temporaryTotal + ", ");
