@@ -10,16 +10,23 @@ namespace ProblemSetB
     {
         static void Main(string[] args)
         {
-            UserInputBark dogBark = new UserInputBark();
-            
-            while (true)
-            {
-                
-                dogBark.GetUserInput();
-                dogBark.CompareWords();
+            //UserInputBark dogBark = new UserInputBark();
 
-                
-            }
+            //while (true)
+            //{
+
+            //    dogBark.GetUserInput();
+            //    dogBark.CompareWords();
+
+
+            //}
+
+            Shapes makeShapes = new Shapes();
+            //makeShapes.MakeSquareList();
+            //makeShapes.PrintSquareList();
+            //makeShapes.MakeTriangleList();
+            //makeShapes.MakeUpsideDownTriangle();
+            makeShapes.MakeBackwardTriangle();
 
         }
     }
