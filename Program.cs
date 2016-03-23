@@ -24,12 +24,12 @@ namespace ProblemSetB
             //makeShapes.MakeUpsideDownTriangle();
             //makeShapes.MakeBackwardTriangle();
 
-            //Fibonacci runFib = new Fibonacci();
-            //runFib.GetNumber();
+            Fibonacci runFib = new Fibonacci();
+            runFib.GetNumber();
 
-            Construction runConstruction = new Construction();
-            runConstruction.OpenVideo();
-            
+            //Construction runConstruction = new Construction();
+            //runConstruction.OpenVideo();
+
 
         }
 
